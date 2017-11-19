@@ -1,0 +1,21 @@
+#
+# FILE %gg/perl/HP200LX/(dirinf).fm
+#
+# written:       1998-03-01
+# latest update: 2000-02-11 17:09:07
+# $Id: (dirinf).fm,v 1.5 2001/07/19 14:37:56 gonter Exp $
+#
+
+README                  general notes
+MANIFEST                list of relevant files
+Changes                 log of changes
+T2D                     Wish List and Things to Do
+Makefile.PL             Perl Makefile
+
+docs/                   more specific notes
+
+DB.pm                   Database handling module
+DB/                     Database handling sub modules
+
+scripts/                various working example programs
+demo/                   various example code snippets

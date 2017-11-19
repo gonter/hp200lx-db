@@ -1,0 +1,47 @@
+<h1>A few notes about the software</h1>
+<h2>Release Announcements</h2>
+For version <a href="announce-0.07.txt">0.07</a>
+and <a href="announce-0.08.txt">0.08</a>
+
+<h2>Descriptions of certain DB file formats</h2>
+All HP-LX database files are based on the general GDB file format,
+the file extension is usually GDB.  There is a very useful description
+available from Thadeus[1].  Below you find a few remarks about
+special DB file formats which are all variants of the GDB file
+format.
+
+<center>
+<table border=1>
+<tr><th>filename<th>description</tr>
+<tr><td><a href="adb-format.html">adb-format.html</a><td>
+    Appointment Book format; this is the most complex variation since
+    there are two different item types (appointments and to-dos) and
+    a lot more nasty elements that make things difficult, e.g. repeated
+    items and so on.
+<tr><td><a href="ndb-format.html">ndb-format.html</a><td>
+    Notetaker; only one header byte is different from GDB [T2D: verify]
+<tr><td><a href="pdb-format.html">pdb-format.html</a><td>
+    Phonebook; The only thing special about PDB files is that they
+    are used by the phonebook application which creates new databases
+    with predefined fields and layouts.  Fields and layout can be edited
+    by the normal database application and the phonebook application is
+    able to work with any GDB or modefied PDB file. (At least as far
+    as I know...)
+<tr><td><a href="wdb-format.html">wdb-format.html</a><td>
+    The World Time Database uses application specific special types,
+    there's nothing fancy about it, really.
+</table>
+</center>
+
+<hr>
+<h2>References</h2>
+<ol>
+<li><a href="http://www.thaddeus.com/ftp/database/100gdb.zip">100gdb.zip</a>
+    (12k) <sl>Written by Andrew Gryc</sl>
+    Two documents describing the format of 100LX database files. 
+    The 200LX db files are slightly different.
+</ol>
+<hr>
+adb-dumps.html
+<hr>
+$Id: index.html,v 1.2 2001/01/01 20:13:59 gonter Exp $

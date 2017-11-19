@@ -1,0 +1,65 @@
+#
+# FILE .../modules/hp200lx-dbgui/README
+#
+# $VERSION= '0.10';
+#
+# written:       2001-07-19
+# latest update: 2000-01-02 22:06:11
+# $Id: README,v 1.1 2001/07/19 14:44:14 gonter Exp $
+#
+
+Purpose:
+
+  DBgui.pm implements the Perl package HP200LX::DBgui which is
+  can be used together with HP200LX::DB to create Perl/Tk
+  user interfaces for HP 200LX database files.
+
+Status:
+
+  The package and any other files are in a completely EXPERIMENTAL
+  STATUS and should not be used without proper backup.  Use it at your
+  own risk, no support can be provided but bug reports and suggestions
+  by e-mail are welcome.  Please read the notes below first.
+
+  Note: The package emits all sorts of diagnostic information, these
+        are not errors and change from release to release, depending
+        on the development progress.
+
+Installation:
+
+  The usual installation strategy
+
+    perl Makefile.PL
+    make
+    # make test  (there are no tests currently)
+    make install
+
+  should produce viable modules.
+
+Limitations:
+
+  Development has been driven by my own requirements and my needs
+  are not so big, so you should not be surprised if much remains left
+  to be done.  Here is a list of missing things that I'm aware of:
+
+Examples:
+
+  The scripts directory contains this only one example, as of now:
+    xdb.pl              Perl/Tk GUI for DB files
+
+Availability and Contact:
+
+  This package is available from these sites:
+
+    http://sourceforge.net/projects/hp200lx-db/
+    ftp://ftp.wu-wien.ac.at/pub/usr/edvz/gonter/hp200lx/
+
+  and I can be reached as Gerhard.Gonter@wu-wien.ac.at
+  or g.gonter@ieee.org .
+  Redistribution is permitted but it must include the README file.
+
+Copyright:
+
+  Copyright (c) 1998 Gerhard Gonter.  All rights reserved.
+  This is free software; you can redistribute it and or modify
+  it under the same terms as Perl itself.

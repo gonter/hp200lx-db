@@ -1,0 +1,11 @@
+#!/usr/local/bin/perl
+# FILE .../hp200lx-db/modules/(dirinf).fm
+#
+# written:       2001-07-19
+# latest update: 2001-07-19 15:55:19
+# $Id: (dirinf).fm,v 1.2 2002/03/28 09:40:00 gonter Exp $
+#
+
+hp200lx-db      HP-LX database handling
+hp200lx-dbgui   Perl/Tk interface modules
+hp200lx-dbweb   WWW interface modules

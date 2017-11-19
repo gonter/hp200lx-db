@@ -1,0 +1,17 @@
+#!/usr/local/bin/perl
+# FILE %gg/usr/work/sf/hp200lx-db/modules/hp200lx-dbweb/(dirinf).fm
+#
+# written:       2001-10-04
+# latest update: 2001-10-04 17:55:57
+# $Id: (dirinf).fm,v 1.1 2002/03/28 09:11:22 gonter Exp $
+#
+
+README                  general notes
+MANIFEST                list of relevant files
+Changes                 log of changes
+Makefile.PL             Perl Makefile
+
+DBweb.pm                DBweb Main module
+
+DBweb/                  DBweb modules
+scripts/                example scripts

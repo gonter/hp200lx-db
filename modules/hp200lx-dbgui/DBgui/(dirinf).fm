@@ -1,0 +1,14 @@
+#!/usr/local/bin/perl
+# FILE .../modules/hp200lx-dbgui/DBgui/(dirinf).fm
+#
+# written:       1998-09-19
+# latest update: 2001-04-01 17:34:02
+# $Id: (dirinf).fm,v 1.1 2001/07/19 14:44:15 gonter Exp $
+#
+
+card.pm         Card view
+list.pm         List view
+vpt.pm          View Point handling widgets (select view point etc)
+
+Notes.txt       Various Notes and Comments
+

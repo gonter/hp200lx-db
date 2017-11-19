@@ -1,0 +1,38 @@
+#!/usr/local/bin/perl
+# FILE .../CPAN/hp200lx-db/scripts/README
+#
+# written:       1998-09-27
+# latest update: 1998-09-27 22:04:02
+#
+
+catadb.pl is a perl script to export HP 200LX appointment books into
+vCalendar format which might be importable to Outlook or similar
+personal information managers (PIMs).
+
+Please be very careful when installing and/or using any of the
+programs.  Instructions are still mostly missing.
+
+A quick shot to install the package might be:
+
+  perl Makefile.PL
+  make
+  make test
+  make install
+
+The script can later be used by calling something like
+
+  scripts/catadb.pl -o output.vcs -folding simple appt.adb
+
+Note: Default folding mode is 'rfc' and I suspect Outlook would not
+understand this format.  'rfc' style folding is based on RFC 2425 [1],
+RFC 2426 [2] and the work of the IETF calsch workgroup [2]
+
+References:
+[1] RFC 2425.  A MIME Content-Type for Directory Information.  September 1998.
+[2] RFC 2426.  vCard MIME Directory Profile. September 1998.
+[3] <ietf-draft-calsch-ical-11.txt>  Internet Calendaring and Scheduling
+    Core Object Specification (iCalendar).  September 15, 1998.
+
+
+
+

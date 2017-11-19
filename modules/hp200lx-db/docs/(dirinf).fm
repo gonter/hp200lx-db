@@ -1,0 +1,15 @@
+#
+# FILE .../CPAN/hp200lx-db/docs/(dirinf).fm
+#
+# written:       1998-09-19
+# latest update: 2001-07-02  1:00:50
+# $Id: (dirinf).fm,v 1.4 2001/07/01 23:46:23 gonter Exp $
+#
+
+adb-format.html    ADB: appointment book database format
+gdb-format.html    GDB: generic database and phonebook format
+ndb-format.html    NDB: note taker database format
+wdb-format.html    WDB: world time database format
+
+announce-0.07.txt       Announcement for version 0.07
+announce-0.08.txt       Announcement for version 0.08

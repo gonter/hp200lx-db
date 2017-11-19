@@ -1,0 +1,23 @@
+#!/usr/local/bin/perl
+# FILE .../DBgui/Notes.txt
+#
+# written:       2001-04-01
+# latest update: 2001-04-01 17:34:19
+# $Id: Notes.txt,v 1.1 2001/07/19 14:44:15 gonter Exp $
+#
+
+Card Widget:
+$widget->{Fields}:
+  has reference, key == field name,
+  value == struct:
+  {
+    'val' => current value,
+    'orig' => original value (used to see if modificatinos were done)
+    'el' => structure descirbing the Tk Element, that is the Tk Widget
+  }
+
+Tk Element:
+{
+  'E' => text value, at least for notes: Entry fields
+  'L' => label
+}
